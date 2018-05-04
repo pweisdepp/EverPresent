@@ -13,13 +13,22 @@ namespace EverPresent.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Admin()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your admin page.";
 
             return View();
         }
 
+        public ActionResult Student()
+        {
+            return View();
+        }
+
+        public ActionResult StSignIn()
+        {
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
